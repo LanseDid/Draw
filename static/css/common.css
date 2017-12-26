@@ -1,0 +1,92 @@
+html #app{
+	margin-top: 0;
+}
+body{
+  margin:0;
+  background: #FFEEBC;
+  border: 10px solid #FFEEBC;
+}
+.drawMain{
+  background-size: contain;
+  width: 100%;
+}
+.title{
+  background: url("../images/title.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 20%;
+  color: #fff;
+  font-size: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.inner{
+  margin-top: 10px;
+  background: url("../images/inner.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background: url("../images/wan.png") no-repeat;
+  margin-bottom: 20px;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .rice{
+  width: 140px;
+  height: 120px;
+  background: url("../images/draw1.png") no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.btnDiv{
+  display:flex;
+  display: flex;
+  justify-content: space-around;
+}
+.btnDiv button{
+  width: 80px;
+  height: 40px;
+  background: #97491F;
+  color: #FFF;
+  margin-top: 20px;
+  border: 2px solid #422019;
+  border-radius: 5px;
+}
+.tip{
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  background: url("../images/tip.png") no-repeat;
+  background-size: 100% 100%;
+  width: 130px;
+  height: 130px;
+  top:  0;
+  right: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+  transform:rotate(30deg);
+  -ms-transform:rotate(30deg);   /* IE 9 */
+  -moz-transform:rotate(30deg);  /* Firefox */
+  -webkit-transform:rotate(30deg); /* Safari 和 Chrome */
+  -o-transform:rotate(30deg);  /* Opera */
+}
+.tip p{
+  margin: 0px;
+}
